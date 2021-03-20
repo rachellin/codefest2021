@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/codefest2021/static/css/main.23eceef7.chunk.css",
+    "main.js": "/codefest2021/static/js/main.e2b36088.chunk.js",
+    "main.js.map": "/codefest2021/static/js/main.e2b36088.chunk.js.map",
+    "runtime-main.js": "/codefest2021/static/js/runtime-main.b69ef30e.js",
+    "runtime-main.js.map": "/codefest2021/static/js/runtime-main.b69ef30e.js.map",
+    "static/js/2.a27ebfde.chunk.js": "/codefest2021/static/js/2.a27ebfde.chunk.js",
+    "static/js/2.a27ebfde.chunk.js.map": "/codefest2021/static/js/2.a27ebfde.chunk.js.map",
+    "static/js/3.6a47c046.chunk.js": "/codefest2021/static/js/3.6a47c046.chunk.js",
+    "static/js/3.6a47c046.chunk.js.map": "/codefest2021/static/js/3.6a47c046.chunk.js.map",
+    "index.html": "/codefest2021/index.html",
+    "static/css/main.23eceef7.chunk.css.map": "/codefest2021/static/css/main.23eceef7.chunk.css.map",
+    "static/js/2.a27ebfde.chunk.js.LICENSE.txt": "/codefest2021/static/js/2.a27ebfde.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/codefest2021/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b69ef30e.js",
+    "static/js/2.a27ebfde.chunk.js",
+    "static/css/main.23eceef7.chunk.css",
+    "static/js/main.e2b36088.chunk.js"
+  ]
+}
