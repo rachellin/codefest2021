@@ -7,7 +7,7 @@ import { StyledOverlay } from './Style';
 function App() {
   return (
     <div className="App">
-      <h1 style={{textAlign: "center"}}>poverty simulation</h1>
+      <h1 style={{textAlign: "center"}}>The Game of Life: But You're Poor</h1>
       <Container/>
     </div>
   );
