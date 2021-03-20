@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import { Container } from './Container';
+import { StyledOverlay } from './Style';
 
 function App() {
   return (

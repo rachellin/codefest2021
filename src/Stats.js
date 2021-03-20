@@ -8,17 +8,24 @@ export class Stats extends React.Component {
             <StyledStats>
                 <h1>stats</h1>
                 <div class="stat">
-                    <b>career: </b>
+                    <b>career:</b> {this.props.career}
                 </div>
                 <div class="stat">
-                    <b>daily income: </b>
+                    <b>daily income:</b> {this.props.income}
                 </div>
                 <div class="stat">
-                    <b>money: </b>
+                    <b>money:</b> ${this.props.money}
                 </div>
                 <div class="stat">
-                    <b>nutrition: </b>
+                    <b>health:</b> {this.props.health}
                 </div>
+
+                <button onClick={() => this.props.onClick(0)}>
+                    RESTART
+                </button>
+                <button onClick={() => this.props.onClick(1)}>
+                    HOW TO PLAY
+                </button>
             </StyledStats>
         )
     }

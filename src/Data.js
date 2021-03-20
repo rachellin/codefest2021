@@ -6,17 +6,17 @@ const decisions = [
                 title: "work at construction site",
                 desc: "very tiring, risk of injuries, pay: $2.76/day",
                 price: {
-                    money: 2.76,
-                    nutrition: 0,
+                    money: 0,
+                    health: 0,
                     next: -1 // -1 means random
                 }
             }, 
             {
                 title: "sell rice pudding",
-                desc: "profit: $1.50/day",
+                desc: "profit: $1.55/day",
                 price: {
-                    money: 1.55,
-                    nutrition: 0,
+                    money: 0,
+                    health: 0,
                     next: 2
                 }
             }
@@ -27,20 +27,20 @@ const decisions = [
         choices: [
             {
                 title: "hospital",
-                desc: "cost: $100",
+                desc: "cost: $10",
                 price: {
-                    money: 100,
-                    time: 6*7, // ??
+                    money: 10,
+                    health: 0,
                     next: 2
                 }
             }, 
             {
                 title: "no hospital",
-                desc: "we need to save the money. i'll pay someone (with no official expertise) to wrap it up",
+                desc: "we need to save the money. i'll pay someone (with no official expertise) to wrap it up. a broken leg makes it much harder to find a job, of course...",
                 price: {
-                    money: 20,
-                    nutrition: 0,
-                    next: 0// no one wants to hire them for a job: GAME OVER
+                    money: 2,
+                    health: 0,
+                    next: 0// no one wants to hire them for a job: GAME OVER - change to random
                 }
             }
         ],
@@ -53,16 +53,16 @@ const decisions = [
                 desc: "cost: $0.50. relatively cheap, enough for everyone, but not so nutritious.",
                 price: {
                     money: 0.5,
-                    nutrition: 2,
-                    next: 4
+                    health: 3,
+                    next: 3
                 }
             }, 
             {
                 title: "beans",
-                desc: "cost: $1. more costly, but our nutrition is important. we need nutrition to stay strong to work, and my children need to grow and stay healthy.",
+                desc: "cost: $1. more costly, but our health is important. we need nutrition to stay strong to work, and my children need to grow and stay healthy.",
                 price: {
                     money: 1,
-                    nutrition: 0,
+                    health: -4,
                     next: 4
                 }
             }
@@ -76,7 +76,7 @@ const decisions = [
                 desc: "if something happens to me, who will take care of my children?",
                 price: {
                     money: 0.5,
-                    nutrition: -2,
+                    health: 2,
                     next: -1
                 }
             }, 
@@ -85,7 +85,7 @@ const decisions = [
                 desc: "i can hold out for a bit longer. i need to invest money in their education, their future.",
                 price: {
                     money: 0,
-                    nutrition: 2,
+                    health: -4,
                     next: -1
                 }
             }
@@ -98,8 +98,8 @@ const decisions = [
                 title: "pay my rent",
                 desc: "cost: $5",
                 price: {
-                    money: 2,
-                    nutrition: 0,
+                    money: 5,
+                    health: 0,
                     next: 9 // win
                 }
             }, 
@@ -108,7 +108,7 @@ const decisions = [
             //     desc: "i'm going to borrow money to pay my rent so that i can continue paying for my children's education.",
             //     price: {
             //         money: 2, // interest???
-            //         nutrition: 0,
+            //         health: 0,
             //         next: -1
             //     }
             // },
@@ -117,7 +117,7 @@ const decisions = [
                 desc: "we'll live in a makeshift house under the bridge. the conditions are worse, but we save $5/month",
                 price: {
                     money: 0,
-                    nutrition: 0,
+                    health: 2,
                     next: -1
                 }
             }
@@ -131,7 +131,7 @@ const decisions = [
                 desc: "i'm putting my children at risk, but if i don't work, who will?",
                 price: {
                     money: 0, // temp: should be the daily income
-                    nutrition: 0,
+                    health: 0,
                     next: -1
                 }
             }, 
@@ -140,7 +140,7 @@ const decisions = [
                 desc: "we're going to miss today's income, but what if something happens to my children while i'm gone? all that i do is for them anyways.",
                 price: {
                     money: 0,
-                    nutrition: 0,
+                    health: 0,
                     next: -1
                 }
             }

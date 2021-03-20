@@ -23,7 +23,7 @@ export const StyledConsole = styled.div`
     border: 1px solid #eee;
     border-radius: 2rem;
     background: #fff;
-    padding: 2rem;
+    padding: 0rem 2rem 1rem 2rem;
 `
 
 export const StyledAnswers= styled.div`
@@ -50,6 +50,12 @@ export const StyledChoice = styled.div`
 
 export const StyledStats = styled.div`
     width: 30%;
-    border: 1px solid #eee;
+    //border: 1px solid #eee;
     padding: 2rem;
+`
+
+export const StyledInstructions = styled.div`
+    text-align: center;
+    margin: 4rem auto;
+    width: 50vw;
 `

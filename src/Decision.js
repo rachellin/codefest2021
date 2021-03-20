@@ -19,15 +19,12 @@ export class Decision extends React.Component {
         }
         return arr;
     }
-    // every choice has a price: money, nutrition, etc
 
     render () {
         return (
             <div>
             <h1>{this.props.question}</h1>
                 <StyledAnswers>
-                    {/* <Choice title="choice 1" desc="description"/>
-                    <Choice title="choice 2" desc="description"/> */}
                     {this.generateChoices()}
                 </StyledAnswers>
             </div>
