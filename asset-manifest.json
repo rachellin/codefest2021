@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/codefest2021/static/css/main.23eceef7.chunk.css",
-    "main.js": "/codefest2021/static/js/main.e2b36088.chunk.js",
-    "main.js.map": "/codefest2021/static/js/main.e2b36088.chunk.js.map",
+    "main.js": "/codefest2021/static/js/main.ff01184d.chunk.js",
+    "main.js.map": "/codefest2021/static/js/main.ff01184d.chunk.js.map",
     "runtime-main.js": "/codefest2021/static/js/runtime-main.b69ef30e.js",
     "runtime-main.js.map": "/codefest2021/static/js/runtime-main.b69ef30e.js.map",
     "static/js/2.a27ebfde.chunk.js": "/codefest2021/static/js/2.a27ebfde.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b69ef30e.js",
     "static/js/2.a27ebfde.chunk.js",
     "static/css/main.23eceef7.chunk.css",
-    "static/js/main.e2b36088.chunk.js"
+    "static/js/main.ff01184d.chunk.js"
   ]
 }
