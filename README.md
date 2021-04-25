@@ -3,7 +3,7 @@ A simple game to simulate living in poverty. The user must make difficult decisi
 
 [click here to play](https://rachellin.github.io/codefest2021/)
 
-![demo image](public/demo1.PNG)
+![demo image](public/demo1.png)
 
 ## Installation
 
