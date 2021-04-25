@@ -31,14 +31,14 @@ export class Console extends React.Component {
                             <h2>how can you help?</h2>
                             <ul>
                                 <li>
-                                    donate: <a href="https://peopleagainstpoverty.com/get-involved/donate/">People Against Poverty</a>,&nbsp;
-                                    <a href="https://donate.worldvision.org/give/poverty-in-america">World Vision</a>
+                                    donate: <a target="_blank" href="https://peopleagainstpoverty.com/get-involved/donate/">People Against Poverty</a>,&nbsp;
+                                    <a target="_blank" href="https://donate.worldvision.org/give/poverty-in-america">World Vision</a>
                                 </li>
                                 <li>
-                                    volunteer: <a href="https://www.unicef.org/careers/volunteers-unicef">UNICEF</a>,&nbsp;
-                                    <a href="https://thp.org/">The Hunger Project</a>,&nbsp;
-                                    <a href="https://childrenshungeralliance.org/">Children's Hunger Alliance</a>,&nbsp;
-                                    <a href="https://www.roomtoread.org/">Room to Read</a>,&nbsp;
+                                    volunteer: <a target="_blank" href="https://www.unicef.org/careers/volunteers-unicef">UNICEF</a>,&nbsp;
+                                    <a target="_blank" href="https://thp.org/">The Hunger Project</a>,&nbsp;
+                                    <a target="_blank" href="https://childrenshungeralliance.org/">Children's Hunger Alliance</a>,&nbsp;
+                                    <a target="_blank" href="https://www.roomtoread.org/">Room to Read</a>,&nbsp;
                                     your local soup kitchen
                                 </li>
                             </ul>
